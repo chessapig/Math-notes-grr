@@ -25,6 +25,12 @@ relative_permalinks: false
 plugins:
   - jekyll-last-modified-at
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
 sass:
   sass_dir:          _sass
   style:            :compressed
